@@ -10,8 +10,17 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    // Christine was here
-
+    @IBOutlet weak var tableView: UITableView!
+    
+    let dataSource: NotificationCellData
+    
+    required init?(coder aDecoder: NSCoder) {
+        let descriptions = [
+            Notification(notification: "Parking in the senior lot", text: "All softball players park in the senior lot after 4 pm")
+        ]
+        self.dataSource = NotificationCellData(description: descriptions)
+        super.init(coder: aDecoder)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

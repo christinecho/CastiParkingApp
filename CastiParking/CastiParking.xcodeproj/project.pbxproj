@@ -19,6 +19,9 @@
 		AD3382341E44E6980074AD7E /* CastiParkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3382331E44E6980074AD7E /* CastiParkingUITests.swift */; };
 		AD3382441E44E9720074AD7E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3382431E44E9710074AD7E /* UserNotifications.framework */; };
 		AD3382461E44EC9B0074AD7E /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = AD3382451E44EC9B0074AD7E /* app.js */; };
+		CB7852F61E897517007D90FA /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7852F51E897517007D90FA /* NotificationCell.swift */; };
+		CB7852F81E897753007D90FA /* NotificationCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7852F71E897753007D90FA /* NotificationCellModel.swift */; };
+		CB7852FA1E897799007D90FA /* NotificationCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7852F91E897799007D90FA /* NotificationCellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		AD3382411E44E6FB0074AD7E /* CastiParking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CastiParking.entitlements; sourceTree = "<group>"; };
 		AD3382431E44E9710074AD7E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		AD3382451E44EC9B0074AD7E /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = app.js; path = ../../apns/app.js; sourceTree = "<group>"; };
+		CB7852F51E897517007D90FA /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		CB7852F71E897753007D90FA /* NotificationCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCellModel.swift; sourceTree = "<group>"; };
+		CB7852F91E897799007D90FA /* NotificationCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,9 @@
 				AD3382151E44E6980074AD7E /* SecondViewController.swift */,
 				AD1D1F421E5662CC00E5E8E5 /* LoginViewController.swift */,
 				AD3382171E44E6980074AD7E /* Main.storyboard */,
+				CB7852F51E897517007D90FA /* NotificationCell.swift */,
+				CB7852F71E897753007D90FA /* NotificationCellModel.swift */,
+				CB7852F91E897799007D90FA /* NotificationCellData.swift */,
 				AD3382451E44EC9B0074AD7E /* app.js */,
 				AD33821A1E44E6980074AD7E /* Assets.xcassets */,
 				AD33821C1E44E6980074AD7E /* LaunchScreen.storyboard */,
@@ -297,7 +306,10 @@
 			files = (
 				AD1D1F431E5662CC00E5E8E5 /* LoginViewController.swift in Sources */,
 				AD3382161E44E6980074AD7E /* SecondViewController.swift in Sources */,
+				CB7852F81E897753007D90FA /* NotificationCellModel.swift in Sources */,
 				AD3382121E44E6980074AD7E /* AppDelegate.swift in Sources */,
+				CB7852FA1E897799007D90FA /* NotificationCellData.swift in Sources */,
+				CB7852F61E897517007D90FA /* NotificationCell.swift in Sources */,
 				AD3382141E44E6980074AD7E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
