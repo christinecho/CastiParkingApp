@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AD1D1F411E565F9A00E5E8E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD1D1F401E565F9A00E5E8E5 /* GoogleService-Info.plist */; };
 		AD1D1F431E5662CC00E5E8E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1D1F421E5662CC00E5E8E5 /* LoginViewController.swift */; };
-		AD3382121E44E6980074AD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3382111E44E6980074AD7E /* AppDelegate.swift */; };
 		AD3382141E44E6980074AD7E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3382131E44E6980074AD7E /* FirstViewController.swift */; };
 		AD3382161E44E6980074AD7E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3382151E44E6980074AD7E /* SecondViewController.swift */; };
 		AD3382191E44E6980074AD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3382171E44E6980074AD7E /* Main.storyboard */; };
@@ -19,6 +18,11 @@
 		AD3382341E44E6980074AD7E /* CastiParkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3382331E44E6980074AD7E /* CastiParkingUITests.swift */; };
 		AD3382441E44E9720074AD7E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3382431E44E9710074AD7E /* UserNotifications.framework */; };
 		AD3382461E44EC9B0074AD7E /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = AD3382451E44EC9B0074AD7E /* app.js */; };
+		CB601B9E1E95882600E6DDE9 /* NotificationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB601B9D1E95882600E6DDE9 /* NotificationStorage.swift */; };
+		CB601BA01E95884A00E6DDE9 /* StateController .swift in Sources */ = {isa = PBXBuildFile; fileRef = CB601B9F1E95884A00E6DDE9 /* StateController .swift */; };
+		CB601BA31E95885500E6DDE9 /* TrafficInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB601BA11E95885500E6DDE9 /* TrafficInformation.swift */; };
+		CB601BA41E95885500E6DDE9 /* TrafficInformationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB601BA21E95885500E6DDE9 /* TrafficInformationDataSource.swift */; };
+		CB601BA61E9588E200E6DDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB601BA51E9588E200E6DDE9 /* AppDelegate.swift */; };
 		CB7852F61E897517007D90FA /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7852F51E897517007D90FA /* NotificationCell.swift */; };
 		CB7852F81E897753007D90FA /* NotificationCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7852F71E897753007D90FA /* NotificationCellModel.swift */; };
 		CB7852FA1E897799007D90FA /* NotificationCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7852F91E897799007D90FA /* NotificationCellData.swift */; };
@@ -45,7 +49,6 @@
 		AD1D1F401E565F9A00E5E8E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD1D1F421E5662CC00E5E8E5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AD33820E1E44E6980074AD7E /* CastiParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastiParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD3382111E44E6980074AD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD3382131E44E6980074AD7E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		AD3382151E44E6980074AD7E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AD3382181E44E6980074AD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +64,11 @@
 		AD3382411E44E6FB0074AD7E /* CastiParking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CastiParking.entitlements; sourceTree = "<group>"; };
 		AD3382431E44E9710074AD7E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		AD3382451E44EC9B0074AD7E /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = app.js; path = ../../apns/app.js; sourceTree = "<group>"; };
+		CB601B9D1E95882600E6DDE9 /* NotificationStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationStorage.swift; path = ../../../../Downloads/NotificationStorage.swift; sourceTree = "<group>"; };
+		CB601B9F1E95884A00E6DDE9 /* StateController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StateController .swift"; path = "../../../../Downloads/StateController .swift"; sourceTree = "<group>"; };
+		CB601BA11E95885500E6DDE9 /* TrafficInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrafficInformation.swift; path = ../../../../Downloads/TrafficInformation.swift; sourceTree = "<group>"; };
+		CB601BA21E95885500E6DDE9 /* TrafficInformationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrafficInformationDataSource.swift; path = ../../../../Downloads/TrafficInformationDataSource.swift; sourceTree = "<group>"; };
+		CB601BA51E9588E200E6DDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Downloads/AppDelegate.swift; sourceTree = "<group>"; };
 		CB7852F51E897517007D90FA /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		CB7852F71E897753007D90FA /* NotificationCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCellModel.swift; sourceTree = "<group>"; };
 		CB7852F91E897799007D90FA /* NotificationCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCellData.swift; sourceTree = "<group>"; };
@@ -116,8 +124,12 @@
 		AD3382101E44E6980074AD7E /* CastiParking */ = {
 			isa = PBXGroup;
 			children = (
+				CB601B9D1E95882600E6DDE9 /* NotificationStorage.swift */,
+				CB601B9F1E95884A00E6DDE9 /* StateController .swift */,
+				CB601BA11E95885500E6DDE9 /* TrafficInformation.swift */,
+				CB601BA21E95885500E6DDE9 /* TrafficInformationDataSource.swift */,
+				CB601BA51E9588E200E6DDE9 /* AppDelegate.swift */,
 				AD3382411E44E6FB0074AD7E /* CastiParking.entitlements */,
-				AD3382111E44E6980074AD7E /* AppDelegate.swift */,
 				AD3382131E44E6980074AD7E /* FirstViewController.swift */,
 				AD3382151E44E6980074AD7E /* SecondViewController.swift */,
 				AD1D1F421E5662CC00E5E8E5 /* LoginViewController.swift */,
@@ -304,10 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB601BA61E9588E200E6DDE9 /* AppDelegate.swift in Sources */,
+				CB601BA31E95885500E6DDE9 /* TrafficInformation.swift in Sources */,
+				CB601B9E1E95882600E6DDE9 /* NotificationStorage.swift in Sources */,
+				CB601BA01E95884A00E6DDE9 /* StateController .swift in Sources */,
 				AD1D1F431E5662CC00E5E8E5 /* LoginViewController.swift in Sources */,
 				AD3382161E44E6980074AD7E /* SecondViewController.swift in Sources */,
 				CB7852F81E897753007D90FA /* NotificationCellModel.swift in Sources */,
-				AD3382121E44E6980074AD7E /* AppDelegate.swift in Sources */,
+				CB601BA41E95885500E6DDE9 /* TrafficInformationDataSource.swift in Sources */,
 				CB7852FA1E897799007D90FA /* NotificationCellData.swift in Sources */,
 				CB7852F61E897517007D90FA /* NotificationCell.swift in Sources */,
 				AD3382141E44E6980074AD7E /* FirstViewController.swift in Sources */,
